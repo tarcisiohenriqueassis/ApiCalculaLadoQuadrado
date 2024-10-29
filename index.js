@@ -13,7 +13,7 @@ app.get('/calculo', (req, res) => {
         res.status(404).json({error:'Digite apenas numeros'})
       }
       else{
-        res.json(areaQuadrado);
+        res.json({area : areaQuadrado});
       }
      
      
